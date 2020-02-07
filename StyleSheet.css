@@ -1,0 +1,43 @@
+﻿body {
+    background: #b6b7bc;
+    font-size: 1.5em;
+    font-family: "Helvetica Neue", "Lucida Grande", "Segoe UI", Arial, Helvetica, Verdana, sans-serif;
+    margin: 0px;
+    padding: 10px;
+    color: #696969;
+}
+.but1 {
+    text-align: center;
+    border: blue;
+    color: #FFF;
+    padding: 25px 60px;
+    text-align: center;
+    font-size: 26px;
+    cursor: pointer;
+    background-color: black;
+    margin-top: 10px;
+    margin: 10px auto;
+    margin-left: 30%;
+    border-radius: 60%;
+}
+
+.but1:hover {
+    background-color: red;
+    border-radius: 16px;
+}
+
+.form1 {
+    font-size: .90em;
+}
+.b {
+    color: black;
+    padding: .10px;
+}
+.w {
+    color: white;
+    padding: .10px;
+}
+.checkbox {
+    padding: .10px;
+    -webkit-transform: scale(2);
+}
