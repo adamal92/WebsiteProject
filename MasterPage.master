@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title property="og:title">web project</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body bgcolor="red" color="white">
+    <link href="masterstyle.css" rel="stylesheet" type="text/css" />
+    <center>
+        <h1>welcome to the future</h1>
+        <hr />
+        <div class="pagelink">
+        <a href="Default.aspx" class="pagelink">home page</a>---<a href="getInTouch.aspx" class="pagelink">get in touch</a>------<a href="media.aspx" class="pagelink">media</a>-----
+        <a href="login.aspx" class="pagelink">log in</a>-----<a href="learning.aspx" class="pagelink">learning materials</a>-------
+        <a href="sniffIt.aspx" class="pagelink">sniffIt</a>-------
+        <a href="articles.aspx" class="pagelink">articles</a></div><hr /><br />
+      <!--  **************<a href="https://www.google.com/imgres?imgurl=https%3A%2F%2Fimages.idgesg.net%2Fimages%2Farticle%2F2018%2F03%2Fcybersecurity_eye-with-binary_face-recognition_abstract-eye-100751589-large.jpg&imgrefurl=https%3A%2F%2Fwww.csoonline.com%2Farticle%2F3441358%2Fcyber-risk-management-is-about-to-get-easier.html&docid=SP4uMOUQt6c1eM&tbnid=Ds8Dz9U626ECmM%3A&vet=10ahUKEwid9snv4OzmAhUCMewKHYegDHUQMwhGKAIwAg..i&w=1200&h=800&bih=613&biw=1280&q=cyber&ved=0ahUKEwid9snv4OzmAhUCMewKHYegDHUQMwhGKAIwAg&iact=mrc&uact=8">
+            <img src="fotos/cybersecurity_eye-with-binary_face-recognition_abstract-eye-100751589-large.jpg" border="5" id="Mfoto" name="Mfoto" runat="server" /></a>**************** -->
+        <br />
+        <style> #Mfoto { width : 500px; height: 300px; } </style>
+                
+    </center>
+   
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+</body>
+</html>

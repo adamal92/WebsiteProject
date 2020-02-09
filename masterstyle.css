@@ -1,0 +1,18 @@
+﻿body {
+    background-image: url("fotos/bgmas.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /*background: #ffffff url("img_tree.png") no-repeat right top;
+        xXaZ3Lb4ZEejUv9ipwK3ha-320-80
+    */
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1{
+    color:white;
+}
+
+/*p{color:white;background-color:black;} changes the cards' color*/
+
+.pagelink{color:white;}
