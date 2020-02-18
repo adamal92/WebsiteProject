@@ -1,0 +1,30 @@
+﻿body {
+    color:white;
+}
+
+.download-btn {
+    background-color: #d32acf;
+    border: none;
+    color: white;
+    padding: 15px 25px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 60%;
+    
+    border-style: none;
+    border-color: inherit;
+    border-width: medium;
+}
+
+h1{color:white;}
+
+.download-btn:hover {
+    background-color: yellow;
+    color:black;
+}
+#download-btn {
+    position: relative;
+    left: 42%;
+    top: 55%;
+}
